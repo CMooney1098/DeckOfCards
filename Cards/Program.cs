@@ -133,6 +133,8 @@ namespace Cards
                     return SuitValue + " of " + Suit.ToString();
                  }
             }
+            //Creates the Card
+
             public Card(int Value, Suits Suit)
             {
                 this.Value = Value;
